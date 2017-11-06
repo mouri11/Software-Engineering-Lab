@@ -1,0 +1,5 @@
+/*
+* Copyright Rohit Das (C) 2017
+* a.txt for 4.c
+*/
+12345678910
