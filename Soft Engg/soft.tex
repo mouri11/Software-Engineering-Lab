@@ -17,6 +17,10 @@
 \usepackage{float}
 
 \usepackage{amsfonts}
+\usepackage{fontspec}
+\usepackage{newunicodechar}
+\newfontface{\freeserif}{FreeSerif}
+\newunicodechar{▲}{{\freeserif ▲}}
 
 \usepackage{sectsty}
 \sectionfont{\fontsize{14}{15}\selectfont}
@@ -38,6 +42,12 @@
 
 \lstset { %
     language=C,
+    backgroundcolor=\color{black!5}, % set backgroundcolor
+    basicstyle=\large,% basic font setting
+}
+
+\lstset { %
+    language=Java,
     backgroundcolor=\color{black!5}, % set backgroundcolor
     basicstyle=\large,% basic font setting
 }
@@ -112,7 +122,7 @@ Taught by: Dr .Suparna Biswas (Saha)\\
 Output:
 \begin{figure}[H]
 \centering
-\includegraphics[width=350pt,height=\textheight,keepaspectratio]{./pics/1.png}
+\includegraphics[width=350pt,height=\textheight,keepaspectratio]{./pics/C/1.png}
 \end{figure}
 
 \bigskip
@@ -124,7 +134,7 @@ Output:
 Output:
 \begin{figure}[H]
 \centering
-\includegraphics[width=350pt,height=\textheight,keepaspectratio]{./pics/2.png}
+\includegraphics[width=350pt,height=\textheight,keepaspectratio]{./pics/C/2.png}
 \end{figure}
 
 \bigskip
@@ -136,7 +146,7 @@ Output:
 Output:
 \begin{figure}[H]
 \centering
-\includegraphics[width=350pt,height=\textheight,keepaspectratio]{./pics/3.png}
+\includegraphics[width=350pt,height=\textheight,keepaspectratio]{./pics/C/3.png}
 \end{figure}
 \bigskip
 
@@ -148,7 +158,7 @@ Output:
 Output:
 \begin{figure}[H]
 \centering
-\includegraphics[width=350pt,height=\textheight,keepaspectratio]{./pics/4.png}
+\includegraphics[width=350pt,height=\textheight,keepaspectratio]{./pics/C/4.png}
 \end{figure}
 \bigskip
 
@@ -159,7 +169,7 @@ Output:
 Output:
 \begin{figure}[H]
 \centering
-\includegraphics[width=350pt,height=\textheight,keepaspectratio]{./pics/5.png}
+\includegraphics[width=350pt,height=\textheight,keepaspectratio]{./pics/C/5.png}
 \end{figure}
 \bigskip
 
@@ -172,7 +182,7 @@ Password entered: sourav}
 Output:
 \begin{figure}[H]
 \centering
-\includegraphics[width=350pt,height=\textheight,keepaspectratio]{./pics/6.png}
+\includegraphics[width=350pt,height=\textheight,keepaspectratio]{./pics/C/6.png}
 \end{figure}
 \bigskip
 
@@ -185,7 +195,7 @@ Output:
 Output:
 \begin{figure}[H]
 \centering
-\includegraphics[width=350pt,height=\textheight,keepaspectratio]{./pics/7.png}
+\includegraphics[width=350pt,height=\textheight,keepaspectratio]{./pics/C/7.png}
 \end{figure}
 \bigskip
 
@@ -196,17 +206,25 @@ Output:
 Output:
 \begin{figure}[H]
 \centering
-\includegraphics[width=350pt,height=\textheight,keepaspectratio]{./pics/8.png}
+\includegraphics[width=350pt,height=\textheight,keepaspectratio]{./pics/C/8.png}
 \end{figure}
 \bigskip
 
 \subsection{Write a program to print a rectangle using line and special symbols.}
+▲▲▲▲▲▲▲▲▲▲\\
+▲ - - - - - - - - - - ▲\\
+▲ - - - - - - - - - - ▲\\
+▲ - - - - - - - - - - ▲\\
+▲ - - - - - - - - - - ▲\\
+▲ - - - - - - - - - - ▲\\
+▲ - - - - - - - - - - ▲\\
+▲▲▲▲▲▲▲▲▲▲\\
 \underline{Program:}
 \lstinputlisting[showstringspaces=false]{../assign1/9.c}
 Output:
 \begin{figure}[H]
 \centering
-\includegraphics[width=350pt,height=\textheight,keepaspectratio]{./pics/9.png}
+\includegraphics[width=350pt,height=\textheight,keepaspectratio]{./pics/C/9.png}
 \end{figure}
 \bigskip
 
@@ -216,8 +234,86 @@ Output:
 Output:
 \begin{figure}[H]
 \centering
-\includegraphics[width=350pt,height=\textheight,keepaspectratio]{./pics/10.png}
+\includegraphics[width=350pt,height=\textheight,keepaspectratio]{./pics/C/10.png}
 \end{figure}
+\bigskip
+
+\newpage
+\section{Assignment-2: Java programming (Date: 30/10/2017)}
+\subsection{An array contains 20 integers arranged randomly. Write a Java program using quick sort to sort these numbers in ascending order.}
+\underline{Program:}
+\lstinputlisting[showstringspaces=false]{../assign2/1.java}
+Output:
+\begin{figure}[H]
+\centering
+\includegraphics[width=350pt,height=\textheight,keepaspectratio]{./pics/Java/1.png}
+\end{figure}
+
+\bigskip
+
+\subsection{Write a Java program to take an integer not greater than 20 as input and calculate the factorial of the integer recursively.}
+\underline{Program:}
+\lstinputlisting[showstringspaces=false]{../assign2/2.java}
+Output:
+\begin{figure}[H]
+\centering
+\includegraphics[width=350pt,height=\textheight,keepaspectratio]{./pics/Java/2.png}
+\end{figure}
+
+\bigskip
+
+\subsection{You are starting out on a long (really long) trip. On the way, there are N gas stations, the locations of which are given as $a_1,a_2,...,a_N$. Initially you are located at the gas station at $a_1$, and your destination is at location $a_N$.} \textbf{\large Your car can only store enough fuel to travel atmost M units without refilling. You can stop at any station and refill the car by any amount. Now you wish to plan your trip such that the number of intermediate stops needed to reach the destination is minimum, and also how many ways are there to plan your trip accordingly.\\
+Input :\\
+The first line two space seperated integers N and M. N lines follow, and the ith line has the value $a_i (0 <= a_i <= 1000000000)$. The input will be such that a solution will always exist.\\
+Output :\\
+Output two space seperated integers : The least number of stops, and the number of ways to plan the trip which uses the least number of stops. Output this value modulo 1000000007.\\}\\
+\underline{Program:}
+\lstinputlisting[showstringspaces=false]{../assign2/3.java}
+Output:
+\begin{figure}[H]
+\centering
+\includegraphics[width=350pt,height=\textheight,keepaspectratio]{./pics/Java/3.png}
+\end{figure}
+
+\bigskip
+
+\subsection{Given N separate integer points on the Cartesian plane satisfying: there is no any three of them sharing a same X-coordinate. Your task is to count the number of rectangles (whose edges parrallel to the axes) created from any four of given points.}
+\textbf{\large Input:\\
+There are several test cases (ten at most), each formed as follows:\\
+The first line contains a positive integer N (N ≤ 105).
+N lines follow, each containing a pair of integers (each having an absolute value of 109 at most) describing coordinates of a given point. The input is ended with N = 0.\\
+Output:\\
+For each test case, output on a line an integer which is the respective number of rectangles found.}\\\\
+\underline{Program:}
+\lstinputlisting[showstringspaces=false]{../assign2/4.java}
+Output:
+\begin{figure}[H]
+\centering
+\includegraphics[width=350pt,height=\textheight,keepaspectratio]{./pics/Java/4.png}
+\end{figure}
+
+\bigskip
+
+\subsection{Given two strings, write a program that outputs the shortest sequence of character insertions and deletions that turn one string into another.}
+\underline{Program:}
+\lstinputlisting[showstringspaces=false]{../assign2/5.java}
+Output:
+\begin{figure}[H]
+\centering
+\includegraphics[width=350pt,height=\textheight,keepaspectratio]{./pics/Java/5.png}
+\end{figure}
+
+\bigskip
+
+\subsection{Write a java program to generate a 3x3 magic square matrix, where a magic square is a matrix whose all numbers along every row, column and diagonal add up to the same number.}
+\underline{Program:}
+\lstinputlisting[showstringspaces=false]{../assign2/6.java}
+Output:
+\begin{figure}[H]
+\centering
+\includegraphics[width=350pt,height=\textheight,keepaspectratio]{./pics/Java/6.png}
+\end{figure}
+
 \bigskip
 
 \end{document}

@@ -1,16 +1,6 @@
 /*
 * Copyright Rohit Das (C) 2017
-* To display pattern as shown below
-▲▲▲▲▲▲▲▲▲▲
-▲---------▲
-▲---------▲
-▲---------▲
-▲---------▲
-▲---------▲
-▲---------▲
-▲---------▲
-▲---------	▲
-▲▲▲▲▲▲▲▲▲▲
+* To display pattern as shown
 */
 #include <locale.h>
 #include <stdio.h>
