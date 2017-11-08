@@ -1,0 +1,27 @@
+% % Metadata for Document
+\def\Company{FPS Gaming}
+\def\Institute{\textit{Maulana Abul Kalam Azad University of Technology, West Bengal}}
+\def\Course{\textit{Computer Science and Engineering}}
+\def\Module{\textit{Software Engineering}}
+\def\Docent{\textit{Dr. Suparna Biswas (Saha)}}
+\def\Assistant{\textit{}}
+
+\def\BoldTitle{Software Requirements Specification}
+
+\def\Subtitle{for \\ Shadows (FPS game) \\}
+\def\Authors{Prepared by \\\\ Debayan De(30000114010) \\\\ Rohit Das(30000114022) \\\\ Rudra Nil Basu(30000114023) \\\\ Sumitro Chowdhury(30000114027) } 
+\def\Shortname{}
+
+
+\title{\textbf{\BoldTitle}\\\Subtitle}
+\author{\Authors \\ \\ \\ \Institute\\ \Course\\ \Module\\ \Docent\\}
+\date{Kolkata, 8. November, 2017}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Creation of pdf information
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hypersetup{pdfinfo={
+		Title={Title},
+		Author={TR},
+		Subject={Report}
+	}}

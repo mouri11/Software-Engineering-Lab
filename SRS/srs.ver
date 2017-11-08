@@ -1,0 +1,22 @@
+\begin {longtable}{@{}|l|l|>{\hsize =\vhAuthorColWidth }X|>{\hsize =\vhChangeColWidth }X|@{}}\hline 
+\textbf {\vhversionname }
+ & \textbf {\vhdatename }
+ & \textbf {\vhauthorname }
+ & \textbf {\vhchangename }\\\hline 
+1.0
+ & 25.09.2016
+ & \listset {A.Sandu}
+ & Chapter 1 - Introduction\\\hline 
+2.0
+ & 10.12.2015
+ & \listset {}
+ & Explaining different sortings\\\hline 
+3.0
+ & 05.01.2016
+ & \listset {}
+ & Kleine Änderungen\\\hline 
+4.0
+ & 10.01.2016
+ & \listset {}
+ & Finale Version\\\hline 
+\end {longtable}
